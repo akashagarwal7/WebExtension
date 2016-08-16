@@ -1,0 +1,18 @@
+{
+	"manifest_version": 2,
+	"name": "app",
+	"version": "1.0",
+	"browser_action": {
+		"default_icon": {
+			// "19": "button/geo-19.png",
+			"96": "button/icon.png"
+		},
+	"default_title": "app",
+	"default_popup": "popup/main.html"
+	},
+	"background": {
+		"scripts": ["myclient.js", "/scripts/socket.io.js", "/scripts/jquery-2.2.4.min.js"],
+		"page": "bgp.html"
+	}
+
+}
