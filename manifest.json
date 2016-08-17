@@ -11,7 +11,7 @@
 	"default_popup": "popup/main.html"
 	},
 	"background": {
-		"scripts": ["myclient.js", "/scripts/socket.io.js", "/scripts/jquery-2.2.4.min.js"],
+//		"scripts": ["myclient.js", "/scripts/socket.io.js", "/scripts/jquery-2.2.4.min.js"],
 		"page": "bgp.html"
 	}
 
